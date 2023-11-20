@@ -1,4 +1,4 @@
-# PP-Auto-Detection
+# PP-Auto-Detector
 Team NodeBoB Prototype Pollution Auto Detection Tool in Node.js npm package.
 
 # Contents
