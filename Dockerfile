@@ -4,6 +4,7 @@ FROM ubuntu:22.04
 # Update the package list and install necessary packages
 RUN apt-get update && apt-get install -y \
     curl \
+    git \
     vim \
     nodejs \
     npm \
