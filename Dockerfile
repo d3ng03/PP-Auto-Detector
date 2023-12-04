@@ -19,6 +19,8 @@ RUN curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o 
 WORKDIR /home/fuzz
 
 # Add your application files to the container (if needed)
+COPY pp.js /home/fuzz/pp.js
+COPY crawl.js /home/fuzz/crawl.js
 
 # Expose any ports your application may use (if needed)
 # EXPOSE 80
