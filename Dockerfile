@@ -21,6 +21,7 @@ WORKDIR /home/fuzz
 # Add your application files to the container (if needed)
 COPY pp.js /home/fuzz/pp.js
 COPY crawl.js /home/fuzz/crawl.js
+COPY singlepackage_pp.js /home/fuzz/singlepackage_pp.js
 
 # Expose any ports your application may use (if needed)
 # EXPOSE 80
@@ -30,4 +31,4 @@ COPY crawl.js /home/fuzz/crawl.js
 
 # Source NVM and install Node.js LTS using bash
 RUN /bin/bash -c "source $HOME/.nvm/nvm.sh && nvm install --lts"
-
+RUN npm install axios

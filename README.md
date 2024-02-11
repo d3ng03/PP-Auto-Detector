@@ -7,6 +7,9 @@ Team NodeBoB Prototype Pollution Auto Detection Tool in Node.js npm package.
 - [Credits](#credits)
 
 # How does it work?
+```bash
+node pp.js
+```
 This tool detects prototype pollution in Node.js npm package.
 
 It goes...
@@ -19,21 +22,19 @@ It goes...
 # CVE
 - CVE-2023-45827
   - https://github.com/clickbar/dot-diver/security/advisories/GHSA-9w5f-mw3p-pj47
-- 4 unknown pp vulnerability
+- CVE-2024-23339
+  - https://github.com/elijahharry/hoolock/security/advisories/GHSA-4c2g-hx49-7h25
+- 30+ undisclosed pp vulnerability
 
 # Credits
 Team : NodeBoB
 
 최지혁    ( Jihyeok Choi )
 
-이동하    ( Lee Dong Ha of ZeroPointer Lab )
+이동하    ( Lee Dong Ha of ZeroPointer Lab )
 
 강성현    ( kang seonghyeun )
 
 박성진    ( sungjin park )
 
 김찬호    ( Chanho Kim )
-
-이수영    ( Lee Su Young )
-
-김민욱    ( MinUk Kim )
